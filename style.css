@@ -1,0 +1,98 @@
+
+    
+* {
+  box-sizing: border-box;
+}
+
+.row,
+.row > .column {
+  padding: 11px;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+
+
+.show {
+  display: block;
+}
+
+.btn.active,
+.btn:hover {
+  background-color: #b71234;
+  color: #fff;     
+}
+.btn {
+  padding: 8px 22px;
+  border-radius: 8px;
+  color: #000;
+  border: none;
+  background: no-repeat;
+  font-size: 16px;
+  font-family: 'Poppins';
+  margin-left: 8px;
+  margin-right: 8px;
+  text-transform: capitalize; 
+  transition: .5s;
+  cursor: pointer;
+}    
+
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 50%;
+  }
+
+}
+
+@keyframes fadeIn {
+        0%{
+            transform: scale(1.1);
+            opacity: 0;
+        }
+        100%{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeUp {
+        0%{
+            transform: translateY(4rem);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .map-3 {
+      animation: .4s fadeIn .1s forwards;
+    }
+    .map-2 {
+      opacity: 0;
+      animation: .4s fadeIn .1s forwards;
+
+    }
+    .map-1 {
+      /* transform: translateY(1px); */
+      opacity: 0;
+      animation: 1s fadeIn .1s forwards;
+    }
+    .text-center {
+      text-align: center;
+    }
