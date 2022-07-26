@@ -1,0 +1,141 @@
+  .M70 {
+    margin-top: 70px;
+  }
+  
+  .M20 {
+    margin-top: 20px;
+  }
+  
+  .content .HoverBtn {
+    display: none;
+    background: #ffbea58c;
+    margin-top: 10px;
+    margin-bottom: 17px;
+  }
+
+  .content:hover .HoverBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .BtnLocator {
+    background-color: #b71234;
+    border-color: #b71234;
+    color: #fff;
+    padding: 6px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    margin-top: 10px !important;
+    /*display: none;*/
+  }
+
+  @media screen and (max-width: 992px) {
+    .btn, .btn.active {
+     margin: 10px;   
+    }
+    .HeroImage img {
+        width: 250px;
+        margin-top: 40px;
+    }
+    
+    .H3Partner {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .M70 {
+        margin-top: 40px;
+    }
+    
+    .BtnLocator {
+        margin-bottom: 50px !important;
+        margin-bottom: 50px;
+    }
+
+  }
+  
+  
+  
+  /* responsive */
+  
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row,
+    .row > .column {
+      padding: 11px;
+    }
+    
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      display: block; 
+    }
+    
+
+    .btn.active,
+    .btn:hover {
+      background-color: #b71234;
+      color: #fff;     
+    }
+    .btn {
+      padding: 6px 18px;
+      border-radius: 8px;
+      color: #000;
+      border: none;
+      background: no-repeat;
+      font-size: 16px;
+      font-family: 'Poppins';
+      margin-left: 8px;
+      margin-right: 8px;
+      text-transform: capitalize; 
+      transition: .5s;
+      cursor: pointer;
+    }    
+  
+    
+    @media screen and (max-width: 768px) {
+      .column {
+        width: 50%;
+      }
+    
+    }
+    @keyframes fadeUp {
+        0%{
+            transform: translateY(4rem);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+
+    .imageGalleryProduct {
+      opacity: 0;
+      animation: .5s fadeUp .1s forwards;
+    }
+    .text-center {
+      text-align: center;
+    }
+    
+
+    
+        
