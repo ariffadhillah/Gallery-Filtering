@@ -12,43 +12,22 @@
 
 
   
-
      
     <!-- MAIN (Center website) -->
     <div class="main text-center M70">
       <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-        <button class="btn" onclick="filterSelection('map-1')"> NE Portland</button>
-        <button class="btn" onclick="filterSelection('map-2')"> SE Portland</button>
-        <button class="btn" onclick="filterSelection('map-3')"> Oregon City</button>
-        <button class="btn" onclick="filterSelection('map-4')"> Beaverton</button>
+        <button class="btn" onclick="filterSelection('map-1')"> NE Portland</button> 
+         <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <!-- <button class="btn" onclick="filterSelection('map-2')"> SE Portland</button> -->
+        <!-- <button class="btn" onclick="filterSelection('map-3')"> Oregon City</button> -->
+        <!-- <button class="btn" onclick="filterSelection('map-4')"> Beaverton</button> -->
       </div>
+        <!-- End -->
       
       <!-- Portfolio Gallery Grid -->
       <div class="row M20">
           
-          <!-- NE Portland Item 1 -->
-        <div class="column map-1">
-          <div class="content">
-            <img src="https://jaclyncreations.com/wp-content/uploads/2022/07/NE-Lombard.jpg" alt="" style="width:100%">
-      <a class="HoverBtn" href="https://www.google.com/maps/dir//45.5889908,-122.7460533/@45.5889414,-122.8160786,12z" target="_blank" rel="noopener"><strong class="BtnLocator">NE Lombard</strong></a>
-          </div>
-        </div>
-        <!-- End -->
-        
-
-
-          <!-- SE Portland Item 1 -->
-        <div class="column map-2">
-          <div class="content">
-          <img src="https://jaclyncreations.com/wp-content/uploads/2022/07/SE-Division.jpg" alt="" style="width:100%">
-          <a class="HoverBtn" href="" target="_blank" rel="noopener"><strong class="BtnLocator">SE Division</strong></a>            
-          </div>
-        </div>
-        <!-- End -->
-
-
-          <!-- SE Portland Item 2 -->
+              <!-- SE Portland Item 2 -->
         <div class="column map-2">
           <div class="content">
           <img src="https://jaclyncreations.com/wp-content/uploads/2022/07/SE-Sandy-Blvd.jpg" style="width: 100%;"> 
@@ -57,14 +36,37 @@
         </div>
         <!-- End -->
 
+        <div class="column map-1">
+          <div class="content">
+            <img src="https://jaclyncreations.com/wp-content/uploads/2022/07/NE-Lombard.jpg" alt="" style="width:100%">
+      <a class="HoverBtn" href="https://www.google.com/maps/dir//45.5889908,-122.7460533/@45.5889414,-122.8160786,12z" target="_blank" rel="noopener"><strong class="BtnLocator">NE Lombard</strong></a>
+          </div>
+        </div>
+        <!-- End -->
+        
+        
+
+
+          <!-- SE Portland Item 1 -->
+        <!-- <div class="column map-2">
+          <div class="content">
+          <img src="https://jaclyncreations.com/wp-content/uploads/2022/07/SE-Division.jpg" alt="" style="width:100%">
+          <a class="HoverBtn" href="" target="_blank" rel="noopener"><strong class="BtnLocator">SE Division</strong></a>            
+          </div>
+        </div> -->
+        <!-- End -->
+
+
+     
+
 
         <!-- SE Portland Item 3 -->
-        <div class="column map-2">
+        <!-- <div class="column map-2">
           <div class="content">
           <img src="https://jaclyncreations.com/wp-content/uploads/2022/07/SE-Hollywood.jpg" alt="" style="width:100%">
           <a class="HoverBtn" href="https://www.google.com/maps/dir//45.5357326,-122.6175096/@45.5357112,-122.6875493,12z" target="_blank" rel="noopener"><strong class="BtnLocator">Hollywood Dist</strong></a>            
           </div>
-        </div>
+        </div> -->
         <!-- End -->
 
 
@@ -89,8 +91,17 @@
       
   
       <!-- END MAIN -->
-      </div>
-      
+      </div>   
+            
+         
+
+
+
+      <!-- End  Website-->
+
+     
+
+
       <script>
       filterSelection("all")
       function filterSelection(c) {
